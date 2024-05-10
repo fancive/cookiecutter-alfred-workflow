@@ -75,17 +75,17 @@ That's enough. The template is installed the first time you use it. See [below](
 **Note**: The template puts everything **in a subdirectory of the current working directory**. The subdirectory is given the name you specify for `repo_name`.
 
 1. Open a shell and navigate to your projects directory.
-2. Run `cookiecutter gh:deanishe/cookiecutter-alfred-workflow` and answer the questions.
+2. Run `cookiecutter gh:fancive/cookiecutter-alfred-workflow` and answer the questions.
 3. Your workflow skeleton is now at `./<repo_name>`
 
-**Note:** You only need to use `cookiecutter gh:deanishe/cookiecutter-alfred-workflow` the first time. After that, the template will be saved locally, and you can use `cookiecutter cookiecutter-alfred-workflow`, not that it saves a whole lot of time…
+**Note:** You only need to use `cookiecutter gh:fancive/cookiecutter-alfred-workflow` the first time. After that, the template will be saved locally, and you can use `cookiecutter cookiecutter-alfred-workflow`, not that it saves a whole lot of time…
 
 
 ### Template variables ###
 
 **Note:** You should set your own defaults for `full_name`, `email` and `bundle_id_root`. See [Customising the defaults](#customising-the-defaults) for details.
 
-|       Variable      |                              Meaning and usage                              |
+| Variable            | Meaning and usage                                                           |
 |---------------------|-----------------------------------------------------------------------------|
 | `full_name`         | Your name. Added to `info.plist`, script comments and `LICENCE.txt`         |
 | `email`             | Your email address. Added to script comments and `LICENCE.txt`              |

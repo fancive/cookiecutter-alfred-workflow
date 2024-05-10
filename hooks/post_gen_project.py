@@ -31,7 +31,7 @@ packages = [
 for comment, cmd in [
     (
         "Installing packages : {} ...".format(', '.join(packages)),
-        ['/usr/bin/python', '-m' 'pip', 'install',
+        ['python', '-m' 'pip', 'install',
          '--target', 'src'] + packages
     ),
     (
