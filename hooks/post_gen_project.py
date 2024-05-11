@@ -20,7 +20,7 @@ import subprocess
 import sys
 
 packages = [
-    'Alfred-Workflow',
+    'git+https://github.com/NorthIsUp/alfred-workflow-py3',  # 使用GitHub仓库URL
     'docopt',
 ]
 
@@ -31,7 +31,7 @@ packages = [
 for comment, cmd in [
     (
         "Installing packages : {} ...".format(', '.join(packages)),
-        ['python', '-m' 'pip', 'install',
+        ['python', '-m', 'pip', 'install',  # 修正了'-m'和'pip'之间的空格错误
          '--target', 'src'] + packages
     ),
     (
